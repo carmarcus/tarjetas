@@ -1,3 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+  box-sizing: border-box; }
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+main {
+  max-width: 900px;
+  margin: auto; }
+
+#producto {
+  width: 40%;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  /*vertical-aling-top(para alinear todo para arribas*/ }
+  #producto .titulo {
+    padding: 10px 30px 10px 15px; }
+    #producto .titulo img {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      background-color: red;
+      display: inline-block;
+      margin-bottom: 10px; }
+    #producto .titulo h3 {
+      padding: 5px 0px 5px 15px;
+      display: inline-block;
+      font-family: Montserrat;
+      color: black;
+      font-size: 15px;
+      width: 70%;
+      color: #009688;
+      font-weight: 600; }
+    #producto .titulo input {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      border-radius: 4px;
+      border: solid 2px #BDBDBD;
+      float: right; }
+    #producto .titulo h4 {
+      padding: 5px;
+      display: inline-block;
+      font-family: Montserrat;
+      color: #BDBDBD;
+      font-size: 10px; }
+  #producto img {
+    width: 100%; }
+  #producto span {
+    background-color: #D32F2F;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    top: 58px;
+    left: 286px;
+    text-align: center;
+    padding-top: 15px; }
+    #producto span .ion-heart {
+      color: white;
+      font-size: 25px; }
+  #producto p {
+    padding: 20px 20px 10px 20px;
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 20px; }
+  #producto hr {
+    padding: 0 5px 0 5px;
+    width: 90%; }
+  #producto ul {
+    margin-top: -8px;
+    padding: 10px 0 10px 20px; }
+    #producto ul li {
+      color: #009688;
+      display: inline-block;
+      font-size: 20px; }
 
 /*# sourceMappingURL=syle.css.map */
